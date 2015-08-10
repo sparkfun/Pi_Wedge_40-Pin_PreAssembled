@@ -9,7 +9,7 @@ _Additionally, please note that this is a new version, sold pre-assembled, using
 
 [![alt text](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/5/13091-Action.jpg)](https://cdn.sparkfun.com/assets/learn_tutorials/3/2/5/13091-Action.jpg)
 
-This is the Pi Wedge B Plus, a board that connects to the Raspberry Pi B+’s 40-pin GPIO connector, and breaks the pins out to breadboard-friendly arrangement and spacing, and even adds a couple of decoupling capacitors on the power supply lines. The “Wedge” also makes the initial bringup process easier - you can plug an FTDI Basic module into the built-in serial port. Each Pi Wedge comes as an easy to assemble kit that can can be inserted into the Raspberry Pi’s GPIO port that allows you to prototype as soon as you are done soldering.
+This is the Pi Wedge B Plus, a board that connects to the Raspberry Pi B+’s 40-pin GPIO connector, and breaks the pins out to breadboard-friendly arrangement and spacing, and even adds a couple of decoupling capacitors on the power supply lines. The “Wedge” also makes the initial bringup process easier - you can plug an FTDI Basic module into the built-in serial port. This version comes pre-assembled, allowing you to prototype without any soldering.
 
 The kit works with both the Model A+ and [Model B+](https://www.sparkfun.com/products/11546) versions of the Raspberry Pi.
 
@@ -29,18 +29,26 @@ Repository Contents
 
 Product Versions
 ----------------
-* [V1.1](https://www.sparkfun.com/products/12994)- Pi Wedge B+ kit
+* [Pi Wedge B+ PTH Kit](https://www.sparkfun.com/products/12994) product Page
+* Model A & B [Pi Wedge](https://www.sparkfun.com/products/12652)
+
 
 Version History
 ---------------
 
-* [820b901aa31b3c76c1dbefd9966a04860c9f83ca](https://github.com/sparkfun/Pi_Wedge_B_Plus/commit/820b901aa31b3c76c1dbefd9966a04860c9f83ca) - Initial release version.
-
+* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
+* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
 
 License Information
 -------------------
-The hardware is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
 
-The code is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
 
 Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
+- 
