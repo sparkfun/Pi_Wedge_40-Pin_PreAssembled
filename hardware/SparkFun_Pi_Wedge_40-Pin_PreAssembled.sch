@@ -30900,7 +30900,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <sheet>
 <plain>
 <text x="172.72" y="10.16" size="2.54" layer="94" font="vector">Byron Jacquot</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V10</text>
 <text x="114.3" y="48.26" size="2.54" layer="94" font="vector">All logic signals are 3.3V, and not 5V tolerant.
 There is no over-voltage protection on the RPi, nor
 on the Pi Wedge B+.</text>
