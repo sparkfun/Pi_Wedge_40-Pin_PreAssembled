@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -2841,7 +2841,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CAP-10547" x="6.35" y="59.182" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$2" library="SparkFun-Aesthetics" package="BREADBOARD_SPACING" value="BREADBOARD_PATTERN" x="40.64" y="68.834"/>
-<element name="JP2" library="SparkFun-Boards" package="2X20-SHROUDED-SMT" value="RASPBERRYPI-B+-GPIO-SMT" x="40.64" y="58.928" rot="R270">
+<element name="JP2" library="SparkFun-Boards" package="2X20-SHROUDED-SMT" value="RASPBERRYPI-40-PIN-GPIO-SMT" x="40.64" y="58.928" rot="R270">
 <attribute name="PROD_ID" value="CONN-13143" x="40.64" y="58.928" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="1X17_NO_SILK_KIT" value="1x17" x="36.83" y="1.524" rot="MR90">
@@ -3025,7 +3025,11 @@ design rules under a new name.</description>
 <wire x1="67.564" y1="63.5" x2="67.564" y2="56.896" width="0.6096" layer="16"/>
 <via x="67.564" y="56.896" extent="1-16" drill="0.381"/>
 <wire x1="3.81" y1="50.038" x2="3.95" y2="50.038" width="0.6096" layer="1"/>
-<wire x1="62.23" y1="55.3593" x2="64.77" y2="55.3593" width="0.6096" layer="1"/>
+<wire x1="62.23" y1="55.3593" x2="62.23" y2="52.832" width="0.6096" layer="1"/>
+<wire x1="62.23" y1="52.832" x2="62.992" y2="52.07" width="0.6096" layer="1"/>
+<wire x1="62.992" y1="52.07" x2="64.008" y2="52.07" width="0.6096" layer="1"/>
+<wire x1="64.008" y1="52.07" x2="64.77" y2="52.832" width="0.6096" layer="1"/>
+<wire x1="64.77" y1="52.832" x2="64.77" y2="55.3593" width="0.6096" layer="1"/>
 <wire x1="64.77" y1="55.3593" x2="66.0273" y2="55.3593" width="0.6096" layer="1"/>
 <wire x1="66.0273" y1="55.3593" x2="67.564" y2="56.896" width="0.6096" layer="1"/>
 <via x="4.064" y="62.738" extent="1-16" drill="0.381"/>

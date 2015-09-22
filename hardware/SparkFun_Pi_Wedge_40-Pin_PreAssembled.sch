@@ -30557,7 +30557,7 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 </package>
 </packages>
 <symbols>
-<symbol name="RASPBERRYPI_B+_GPIO">
+<symbol name="RASPBERRYPI_40_PIN_GPIO">
 <wire x1="-12.7" y1="27.94" x2="12.7" y2="27.94" width="0.254" layer="94"/>
 <wire x1="12.7" y1="27.94" x2="12.7" y2="-33.02" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-33.02" x2="-12.7" y2="-33.02" width="0.254" layer="94"/>
@@ -30606,17 +30606,15 @@ Footprint designed for Sullins SBH11-NBPC-D20-SM-BK</description>
 <pin name="GP21" x="-15.24" y="-5.08" length="short"/>
 <wire x1="-3.81" y1="12.7" x2="-3.81" y2="-7.62" width="0.254" layer="95"/>
 <wire x1="3.556" y1="-27.94" x2="3.556" y2="-30.48" width="0.254" layer="95"/>
-<text x="3.048" y="-30.734" size="1.778" layer="95" rot="R90">B+</text>
-<text x="-1.524" y="1.27" size="1.778" layer="95" rot="R90">B+</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RASPBERRYPI-B+-GPIO" prefix="JP">
-<description>Raspberry Pi B+ GPIO Header
-
-2x20 pin connector</description>
+<deviceset name="RASPBERRYPI-40-PIN-GPIO" prefix="JP">
+<description>Second Generation Raspberry Pi GPIO Header
+&lt;br&gt;&lt;br&gt;
+2x20 pin connector, as found on B, B+, A+ models.</description>
 <gates>
-<gate name="G$1" symbol="RASPBERRYPI_B+_GPIO" x="0" y="2.54"/>
+<gate name="G$1" symbol="RASPBERRYPI_40_PIN_GPIO" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="2X20-SHROUDED">
@@ -30877,7 +30875,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="BREADBOARD_PATTERN" device=""/>
-<part name="JP2" library="SparkFun-Boards" deviceset="RASPBERRYPI-B+-GPIO" device="-SMT" value="RASPBERRYPI-B+-GPIO-SMT"/>
+<part name="JP2" library="SparkFun-Boards" deviceset="RASPBERRYPI-40-PIN-GPIO" device="-SMT" value="RASPBERRYPI-40-PIN-GPIO-SMT"/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="M17" device="KIT" value="1x17"/>
 <part name="JP4" library="SparkFun-Connectors" deviceset="M17" device="KIT" value="1x17"/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
@@ -30903,7 +30901,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <text x="238.76" y="7.62" size="2.54" layer="94" font="vector">V10</text>
 <text x="114.3" y="48.26" size="2.54" layer="94" font="vector">All logic signals are 3.3V, and not 5V tolerant.
 There is no over-voltage protection on the RPi, nor
-on the Pi Wedge B+.</text>
+on the Pi Wedge.</text>
 <text x="7.62" y="50.8" size="2.54" layer="94" font="vector">TXO and RXI use 3.3V logic levels.
 Use with 3.3V FTDI adapter.</text>
 </plain>
