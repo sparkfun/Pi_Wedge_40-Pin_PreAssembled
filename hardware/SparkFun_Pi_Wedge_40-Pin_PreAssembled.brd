@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -2834,10 +2834,10 @@ design rules under a new name.</description>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="29.845" y="44.704"/>
 <element name="STANDOFF1" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="13.97" y="49.53"/>
 <element name="STANDOFF2" library="SparkFun-Electromechanical" package="STAND-OFF" value="STAND-OFF" x="67.31" y="49.53"/>
-<element name="C5V" library="SparkFun-Capacitors" package="PANASONIC_D" value="10uf" x="6.35" y="50.038" rot="R180">
+<element name="C5V" library="SparkFun-Capacitors" package="PANASONIC_D" value="47uf" x="6.35" y="50.038" rot="R180">
 <attribute name="PROD_ID" value="CAP-10547" x="6.35" y="50.038" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C3V" library="SparkFun-Capacitors" package="PANASONIC_D" value="10uf" x="6.35" y="59.182" rot="R180">
+<element name="C3V" library="SparkFun-Capacitors" package="PANASONIC_D" value="47uf" x="6.35" y="59.182" rot="R180">
 <attribute name="PROD_ID" value="CAP-10547" x="6.35" y="59.182" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U$2" library="SparkFun-Aesthetics" package="BREADBOARD_SPACING" value="BREADBOARD_PATTERN" x="40.64" y="68.834"/>

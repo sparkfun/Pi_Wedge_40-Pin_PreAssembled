@@ -30868,8 +30868,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".2_INCH"/>
 <part name="STANDOFF1" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
 <part name="STANDOFF2" library="SparkFun-Electromechanical" deviceset="STAND-OFF" device=""/>
-<part name="C5V" library="SparkFun-Capacitors" deviceset="47UF-50V-20%(ELECT)" device="" value="10uf"/>
-<part name="C3V" library="SparkFun-Capacitors" deviceset="47UF-50V-20%(ELECT)" device="" value="10uf"/>
+<part name="C5V" library="SparkFun-Capacitors" deviceset="47UF-50V-20%(ELECT)" device="" value="47uf"/>
+<part name="C3V" library="SparkFun-Capacitors" deviceset="47UF-50V-20%(ELECT)" device="" value="47uf"/>
 <part name="GND4" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND8" library="SparkFun" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
