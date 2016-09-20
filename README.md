@@ -31,12 +31,6 @@ Product Versions
 * Model A & B [Pi Wedge](https://www.sparkfun.com/products/12652)
 
 
-Version History
----------------
-
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
-
 License Information
 -------------------
 
