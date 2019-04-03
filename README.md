@@ -20,7 +20,6 @@ Documentation
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/preassembled-40-pin-pi-wedge-hookup-guide)** - Basic hookup guide for the Pi Wedge.
 * **[Raspberry gPIo](https://learn.sparkfun.com/tutorials/raspberry-gpio)** - Programming guide using the Pi's I/O pins with Python and C. 
 * **[Raspberry Pi SPI and I2C Tutorial](https://learn.sparkfun.com/tutorials/raspberry-pi-spi-and-i2c-tutorial)** - Programming guide using the Pi's SPI and I2C.
-
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 * **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
