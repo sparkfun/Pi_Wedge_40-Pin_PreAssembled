@@ -6,13 +6,13 @@ Pi Wedge 40-Pin PreAssembled - Breakout For 40-Pin, Second Generation Raspberry 
 
 [SparkFun Pi Wedge (PreAssembled) [BOB-13717]](https://www.sparkfun.com/products/13717)
 
-This part was created in Eagle v6.5.0.  Software examples were developed using the [WiringPi](wiringpi.com) libraries and utilities.
+This part was created in Eagle v6.5.0.  Software examples were developed using the [WiringPi](http://wiringpi.com) libraries and utilities.
 
 Repository Contents
 -------------------
 
 * **/Hardware** - All Eagle design files (.brd, .sch, .STL)
-* **/Software** - C source code for SPI, I2C and GPIO examples.  All use [WiringPi](wiringpi.com) for the underlying device interfaces
+* **/Software** - C source code for SPI, I2C and GPIO examples.  All use [WiringPi](http://wiringpi.com) for the underlying device interfaces
 * **/Production** - Production panel files (.brd)
 
 Documentation
